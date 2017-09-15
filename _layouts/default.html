@@ -2,28 +2,31 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- link to main stylesheet -->
+			<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<!-- <link rel="stylesheet" type="text/css" href="/css/post.css"> -->
 		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
+		<body class="container">
+			<div class="row">
+				<div class="cols col-md-8 col-md-offset-2 col-sm-1">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/blog">Blog</a></li>
+						</ul>
+					</nav>
+					<div class="content-body">
+						{{ content }}
+					</div><!-- /.container -->
+					<footer>
+						<ul>
+							<li><a href="mailto:lichao.franklee@gmail.com">email</a></li>
+							<li><a href="https://github.com/uleec">github.com/uleec</a></li>
+						</ul>
+					</footer>
+				</div>
+			</div>
 		</body>
 	</html>
