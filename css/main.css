@@ -1,10 +1,10 @@
 body {
     margin-top: 20px;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.7em;
+    font-family: 'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
+    font-size: 1.5em;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,7 +22,7 @@ a {
 h1 {
     font-size: 1.5em;
     font-weight: bold;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
 }
 
 footer {
@@ -42,7 +42,7 @@ ul.posts li span{
 ul.posts li a,
 ul.posts li a:hover {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #00a;
 }
 ul.posts li a:hover {
@@ -50,10 +50,13 @@ ul.posts li a:hover {
 }
 
 .container {
-    background-color: #2D2C2C;
+    background-color: #f9f9f5;
 }
 .container .content-body {
-    background-color: #ccc;
+    background-color: #f9f9f5;
     padding: 4px;
     text-align: justify;
+}
+.container .content-body p {
+    line-height: 1.8em;
 }
