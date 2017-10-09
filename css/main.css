@@ -9,6 +9,15 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -21,6 +30,18 @@ a {
 
 h1 {
     font-size: 1.5em;
+    font-weight: bold;
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
+}
+
+h3 {
+    font-size: 1.2em;
     font-weight: bold;
     font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
 }
