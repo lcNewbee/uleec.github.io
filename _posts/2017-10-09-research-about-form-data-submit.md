@@ -242,8 +242,6 @@ date: 2017-10-09
 	button.onclick = function(e) {
 		e.preventDefault();
 		var form = document.getElementById('form');
-		var data = new FormData(form); // XMLHttpRequest 2级FormData对象，直接传入表单元素
-		data.append("job", "engineer");
 		var url = "http://192.168.0.1/action"; // Ajax请求链接
 		var xhr = new XMLHttpRequest();
 		xhr.onreadystatechange = function(){ // 必须在open之前
@@ -256,7 +254,9 @@ date: 2017-10-09
 			}
 		};
 		xhr.open("post", url, true);
-		xhr.send(new FormData(form)); // 无需设置头部信息，FormData会根据表单内容自动设置合适的格式
+		// 直接传入表单元素，构造FormData对象，该对象会自动序列化表单内容
+		// 利用send方法传递数据，无需设置头部信息，FormData会根据表单内容自动设置合适的格式
+		xhr.send(new FormData(form));
 	}
 	```
 
