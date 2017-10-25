@@ -9,21 +9,51 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
-a {
+li a {
     text-decoration: none;
     color: #999;
 }
+
+p a {
+    text-decoration: underline;
+    color: #387894;
+}
+
 
 h1 {
     font-size: 1.5em;
     font-weight: bold;
     font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
 }
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
+
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family:'PingFang SC','Hiragino Sans GB','Helvetica Neue','Microsoft Yahei','WenQuanYi Micro Hei','sans-serif';
+}
+
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -59,4 +89,8 @@ ul.posts li a:hover {
 }
 .container .content-body p {
     line-height: 1.8em;
+}
+
+blockquote {
+    font-size: 1em;
 }
